@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.resultat{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.resultat .liste_des_mots{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.resultat .liste_des_mots p{
+    margin: 1rem;
+}
+
+form{
+    margin: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .mot{
+    display: flex;
+    flex-direction: row;
+}
+
+form .mot input{
+    width: 1.5rem;
+    text-align: center;
+}
+
+form .lettre_incorrect input{
+    width: 1.5rem;
+    text-align: center;
+}
+
+form .lettre_correct input{
+    width: 1.5rem;
+    text-align: center;
+}
